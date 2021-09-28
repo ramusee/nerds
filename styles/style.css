@@ -9,7 +9,7 @@ body {
   border-bottom: #e1e1e1 solid 2px;
   padding-bottom: 45px;
 }
-.container {
+.wrapper {
   margin: 0 auto;
   width: 100%;
   max-width: 1160px;
@@ -17,7 +17,7 @@ body {
   padding-right: 15px;
 }
 /* intro */
-.main__header {
+.main-header {
   padding-top: 48px;
   background-color: #eeeeee;
 }
@@ -50,7 +50,7 @@ body {
   text-transform: uppercase;
   font-weight: 500;
   padding: 0;
-  margin-left: -94px;
+  
 }
 .nav__item {
   margin-left: 47px;
@@ -74,8 +74,8 @@ body {
   color: #000;
   position: relative;
   font-weight: 500;
-  margin-left: 40px;
-  transition: opacity 0.3s ease-out;
+  transition: 0.3s ease-out;
+  margin-left: 134px;
 }
 .cart:hover {
   color: #fb565a;
@@ -89,6 +89,9 @@ body {
   width: 15px;
   height: 15px;
   left: -35px;
+}
+.cart:active {
+  color:#a6a6a6;
 }
 .welcome-section__header {
   font-weight: 500;
@@ -370,7 +373,9 @@ background-color: #e74246;
   line-height: .1;
 }
 
-/* CATALOG */
-.page__header {
+/* CATALOG PAGE */
+
+.catalog-header {
   text-align: center;
+  padding-bottom: 100px;
 }
