@@ -84,7 +84,7 @@ body {
 .cart::before {
   content: '';
   position: absolute;
-  background-image: url(/svg/cart-icon.svg);
+  background-image: url(../svg/cart-icon.svg);
   display: block;
   width: 15px;
   height: 15px;
