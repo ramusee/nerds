@@ -31,10 +31,33 @@
       </div>
     </div>
   </header>
-    <div class="catalog">
+    <div class="catalog wrapper">
       <form action="/" method="post" class="form-catalog">
       <fieldset class="form-catalog__fieldset">
         <legend class="form-catalog__legend">стоимость:</legend>
+        <div class="price__filter">
+          <div class="price__filter-range">
+            <div class="price__filter-range_usage"></div>
+          <button type="button" class="price__button"></button>
+          <button type="button" class="price__button price__button_max"></button>
+        </div>
+        </div>
+        <div class="price__interval">
+        <label for="from" class="price__label">от
+        <input type="text" name="from" class="price__input-control" value="0">
+        </label>
+        <label for="to" class="price__label price__label_to">до
+        <input type="text" name="to" class="price__input-control" value="15000">
+      </label>
+      </div>
+      </fieldset>
+      <fieldset class="form-catalog__fieldset">
+        <legend class="form-catalog__legend">Сетка:</legend>
+        <label>
+          <input name="" type="radio" checked>
+          <input type="radio">
+          <input type="radio">
+        </label>
       </fieldset>
     </form>
     </div>
