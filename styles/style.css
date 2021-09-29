@@ -296,7 +296,6 @@ body {
 /* MAP */
 
 .contacts {
-  background-image: url(../svg/map.png);
   height: 416px;
   width: 1440px;
   margin: 0 auto;
@@ -315,13 +314,13 @@ body {
   padding: 48px 48px 48px 50px;
   background-color: #fff;
   position: absolute;
-  transform: translateY( 213px);
+  transform: translateY(-210px);
   font-size: 16px;
   left: -40;
 }
 .map__marker {
 position: absolute;
-transform: translate(680px, 190px);
+transform: translate(680px, -250px);
 }
 .contact__header {
   text-transform: uppercase;
