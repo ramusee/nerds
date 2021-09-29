@@ -32,7 +32,7 @@ body {
   display: block;
   width: 160px;
   height: 67px;
-  background-image: url(/svg/nerds-logo.svg);
+  background-image: url(../svg/nerds-logo.svg);
   background-repeat: no-repeat;
   opacity: 1;
   transition: opacity 0.3s ease-out;
