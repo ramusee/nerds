@@ -296,7 +296,11 @@ body {
 /* MAP */
 
 .contacts {
+<<<<<<< HEAD
   background-image: url(../svg/map.PNG);
+=======
+  background-image: url(../images/map.png);
+>>>>>>> aac1670d1e75ae0b07a8b0ada153a228bf023d8a
   height: 416px;
   width: 1440px;
   margin: 0 auto;
