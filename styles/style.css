@@ -302,10 +302,10 @@ body {
 /* MAP */
 
 .office {
+  margin-top: 67px;
   background-image: url(../images/map.png);
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: cover;
   width: 100%;
   min-width: 1220px;
   height: 416px;
