@@ -1,65 +1,79 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nerds: Каталог шаблонов</title>
-    <link rel="stylesheet" href="styles/normalize.css" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nerds: Каталог шаблонов</title>
+  <link rel="stylesheet" href="styles/normalize.css" />
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/style.css">
 </head>
+
 <body>
   <header class="main-header">
     <div class="wrapper">
-      <div class="header">
+      <nav class="header">
         <a href="index.html">
-          <span class="logo"> </span>
+          <span class="logo"></span>
         </a>
-        <nav>
-          <ul class="nav">
-            <li class="nav__item"><a href="#" class="nav__item__link">студия</a></li>
-            <li class="nav__item"><a href="#" class="nav__item__link">клиенты</a></li>
-            <li class="nav__item"><a href="catalog.html" class="nav__item__link">магазин</a></li>
-            <li class="nav__item"><a href="#" class="nav__item__link">контакты</a></li>
-          </ul>
-        </nav>
+        <ul class="nav">
+          <li class="nav__item"><a href="index.html" class="nav__item__link">студия</a></li>
+          <li class="nav__item"><a href="#" class="nav__item__link">клиенты</a></li>
+          <li class="nav__item"><a href="catalog.html" class="nav__item__link">магазин</a></li>
+          <li class="nav__item"><a href="#" class="nav__item__link">контакты</a></li>
+        </ul>
         <a href="#" class="cart">корзина</a>
-      </div>
-      <div class=>
-        <h1 class="catalog-header welcome-section__header">Магазин готовых шаблонов</h1>  
-      </div>
+      </nav>
     </div>
   </header>
-    <div class="catalog wrapper">
-      <form action="/" method="post" class="form-catalog">
-      <fieldset class="form-catalog__fieldset">
-        <legend class="form-catalog__legend">стоимость:</legend>
-        <div class="price__filter">
-          <div class="price__filter-range">
-            <div class="price__filter-range_usage"></div>
-          <button type="button" class="price__button"></button>
-          <button type="button" class="price__button price__button_max"></button>
-        </div>
-        </div>
-        <div class="price__interval">
-        <label for="from" class="price__label">от
-        <input type="text" name="from" class="price__input-control" value="0">
-        </label>
-        <label for="to" class="price__label price__label_to">до
-        <input type="text" name="to" class="price__input-control" value="15000">
-      </label>
+  <main>
+    <div class="welcome-section">
+      <div class="catalog-title wrapper">
+        <h1 class="catalog-title__text">Магазин готовых шаблонов</h1>
       </div>
-      </fieldset>
-      <fieldset class="form-catalog__fieldset">
-        <legend class="form-catalog__legend">Сетка:</legend>
-        <label>
-          <input name="" type="radio" checked>
-          <input type="radio">
-          <input type="radio">
-        </label>
-      </fieldset>
-    </form>
     </div>
+    <div class="wrapper">
+      <div class="catalog">
+        <form action="/" method="post" class="form-catalog">
+          <fieldset class="form-catalog__fieldset">
+            <legend class="form-catalog__legend">стоимость:</legend>
+            <div class="price__filter">
+              <div class="price__filter-range">
+                <div class="price__filter-range_usage"></div>
+                <button type="button" class="price__button"></button>
+                <button type="button" class="price__button price__button_max"></button>
+              </div>
+            </div>
+            <div class="price__interval">
+              <label for="from" class="price__label">от
+                <input type="text" name="from" class="price__input-control" value="0">
+              </label>
+              <label for="to" class="price__label price__label_to">до
+                <input type="text" name="to" class="price__input-control" value="15000">
+              </label>
+            </div>
+          </fieldset>
+          <fieldset class="form-catalog__fieldset">
+            <legend class="form-catalog__legend">Сетка:</legend>
+            <label for="grid-1">
+              <input name="grid-type" type="radio" value="адаптивная" checked>
+              Адаптивная
+            </label>
+            <label for="grid-2">
+              <input name="grid-type" type="radio" value="фиксированная">
+              Фиксированная
+            </label>
+            <label for="grid-3">
+              <input name="grid-type" type="radio" value="резиновая" >
+              Резиновая
+            </label>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </main>
 </body>
+
 </html>

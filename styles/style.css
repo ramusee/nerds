@@ -381,12 +381,15 @@ body {
 }
 
 /* CATALOG PAGE */
-.catalog {
-  margin: 55px;
+
+.catalog-title {
+  padding-top: 30px;
 }
-.catalog-header {
+.catalog-title__text {
   text-align: center;
-  padding-bottom: 100px;
+  font-weight: medium;
+  font-size: 55px;
+  padding-bottom: 117px;
 }
 .form-catalog {
   width: 260px;
