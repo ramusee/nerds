@@ -304,13 +304,13 @@ body {
 /* MAP */
 
 .office {
-  margin-top: 67px;
   background-image: url(../images/map.png);
   background-repeat: no-repeat;
   background-position: center center;
   min-width: 1220px;
   height: 416px;
   margin: 0 auto;
+  margin-top: 79px;
 }
 .map {
   display: flex;
